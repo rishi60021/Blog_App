@@ -18,9 +18,7 @@ function App() {
         <Route path="/login" element={user?<Home/>:<Login/>}></Route>
         <Route path="/write" element={user?<Write/>:<Register/>}></Route>
         <Route path="/post/:postid" element={<Single/>}></Route>
-
       </Routes>
-
     </>
   );
 }
